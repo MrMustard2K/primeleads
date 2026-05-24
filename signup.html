@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeLeads</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="PL_icon.jpg">
+</head>
+<body>
+    <Header id="header">
+        <img src="PL_icon_transparent.png" height="100px" style="margin-left: 30px;">
+        <h1 id="h1">PrimeLeads</h1>
+        <nav id="index_navbar">
+            <a href="howwework.html" class="index_nav_a">how PrimeLeads works</a>
+            <a href="contact_us.html"class="index_nav_a">contact us</a> 
+            
+            <span id="nav_span"></span>
+        </nav>
+    </Header>
+    <main id="sign_main">
+        <a href="index.html">
+        <button class="go_back">
+            <b>
+            Go back
+            </b>
+        </button>
+        </a>
+
+        <h1 style="margin-left: 42.5%; font-size: 60px; font-family: Verdana, Geneva, Tahoma, sans-serif;" >Sign in</h1>
+        <div id="sign_div">
+            <br>
+            <form action="index.php" method="POST">
+            <label for="name" class="signin">full name: </label>
+            <input type="text"
+            <hr>
+            <label for="email" class="signin">email: </label>
+            <input type="email" required>
+            <br>
+            <hr>
+            <label for="password" class="signin">password: </label>
+            <input type="password" required minlength="8" maxlength="30">
+            <label for="phone number" class="signin">phone number: </label>
+            <input type="tel" required placeholder="123-456-7890" pattern="[0-9]">
+            <br>
+            <hr>
+            <form action="" method="POST">
+            <label for="phone number" class="signin">phone number: </label>
+            <input type="tel" required placeholder="123-456-7890" pattern="[0-9]">
+            <hr>
+            <label for="dropdown" class="signin">what kind of business are you: </label>
+            <select required>
+                <option value="roofing">roofing</option>
+                <option value="plumbing">plumbing</option>
+                <option value="flooring">flooring</option>
+            </select> <br>
+            <hr>
+            <label class="signin">what city are you in: </label>
+            <input type="text">
+            </form>
+            <hr>
+            <label class="signin">i agree to the<a href="terms and conditions.html"> terms and conditions</a></label>
+            <input type="checkbox" id=check required>
+            <hr>
+            <input type="submit" id="submit">
+            </form>
+            
+            
+        </div>
+            <p style="margin-left: 43.5%;">already have an account <a href="login.html">log in</a></p>
+
+    </main>

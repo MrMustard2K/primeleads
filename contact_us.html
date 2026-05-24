@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeLeads</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="PL_icon.jpg">
+</head>
+<body>
+    <Header id="header">
+        <img src="PL_icon_transparent.png" height="100px" style="margin-left: 30px;">
+        <h1 id="h1">PrimeLeads</h1>
+    </Header>
+    <main id="conmain">
+
+         
+        <button class="go_back" onclick="history.back()">
+            <b>
+            Go back
+            </b>
+        </button>
+        <h1 id="phonenumber">or call 250-713-5119</h1>
+        <form>
+        <h1 class="contH1">Contact form</h1>
+
+         <form action="https://formspree.io/f/mzdwzzpq" method="POST">
+
+        <input type="text" name="first" placeholder="First Name" class="continput" autocomplete="off" required>
+        <input type="text" name="last" placeholder="Last Name" class="continput" autocomplete="off" required>
+        <input type="email" name="email" placeholder="Email Address" class="continput" autocomplete="off" required>
+        <textarea rows="5" cols="60" name="message" placeholder="Enter Text" autocomplete="off" required id="context"></textarea>
+        <button type="submit" id="consubmit">Send Message</button>
+        </form>
+
+    </main>
